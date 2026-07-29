@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Legal Policies, Terms & Refunds | Trasker Cabs</title>
+  <meta name="description" content="Read Trasker Cabs' official Privacy Policy, Terms and Conditions, and Refund & Cancellation policies for intercity highway taxi services across North India.">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* --- Mother Website Design System Variables --- */
+    :root {
+      --bg-dark: #0e1203;
+      --bg-surface: rgba(20, 8, 38, 0.85);
+      --bg-card: rgba(29, 12, 54, 0.9);
+      --gold: #F3C400;
+      --gold-glow: rgba(243, 196, 0, 0.25);
+      --purple-border: rgba(255, 255, 255, 0.08);
+      --text-main: #FFFFFF;
+      --text-muted: #A898C0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+    
+    body { 
+      background-color: var(--bg-dark); 
+      color: var(--text-main); 
+      line-height: 1.6; 
+      overflow-x: hidden;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    /* --- BACKGROUND TAXI IMAGE (Low Transparency Setup) --- */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      /* Replace the URL below with your actual image path, e.g., url('opwl.jpg') */
+      background: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1920&q=80') no-repeat center center / cover;
+      opacity: 0.15; /* LOW TRANSPARENCY - Adjust between 0.10 and 0.25 as needed */
+      z-index: -1;
+      filter: grayscale(30%) contrast(120%);
+    }
+
+    /* --- Navigation (Exact Match to Mother Site) --- */
+    .navbar { 
+      display: flex; justify-content: space-between; align-items: center; 
+      padding: 20px 5%; max-width: 1350px; margin: auto; 
+      border-bottom: 1px solid var(--purple-border); 
+      background: rgba(14, 18, 3, 0.8);
+      backdrop-filter: blur(12px);
+      position: sticky; top: 0; z-index: 1000;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px; text-decoration: none; color: var(--text-main); }
+    .brand-icon { width: 44px; height: 44px; background: var(--gold); color: var(--bg-dark); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.4rem; box-shadow: 0 0 15px var(--gold-glow); }
+    .brand span { color: var(--gold); }
+    
+    .nav-actions { display: flex; gap: 12px; align-items: center; }
+    .contact-number { color: var(--text-main); text-decoration: none; font-weight: 700; font-size: 0.95rem; margin-right: 15px; display: flex; align-items: center; gap: 6px; }
+    .contact-number:hover { color: var(--gold); }
+    .btn-outline { background: transparent; color: var(--text-main); border: 1px solid var(--purple-border); padding: 10px 18px; border-radius: 50px; font-weight: 600; font-size: 0.9rem; text-decoration: none; transition: all 0.2s; cursor: pointer; }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); box-shadow: 0 0 15px var(--gold-glow); }
+    .btn-gold { background: var(--gold); color: var(--bg-dark); border: none; padding: 10px 20px; border-radius: 50px; font-weight: 700; font-size: 0.9rem; text-decoration: none; transition: all 0.2s; cursor: pointer; box-shadow: 0 4px 15px var(--gold-glow); }
+    .btn-gold:hover { transform: translateY(-2px); filter: brightness(1.1); box-shadow: 0 6px 20px rgba(243, 196, 0, 0.4); }
+
+    /* --- Hero Header Section --- */
+    .hero-header { max-width: 1000px; margin: 60px auto 40px; padding: 0 5%; text-align: center; }
+    .hero-header h1 { font-size: 3.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 20px; letter-spacing: -1px; }
+    .hero-header h1 span { color: var(--gold); }
+    .hero-header p { font-size: 1.15rem; color: var(--text-muted); max-width: 680px; margin: 0 auto 30px; }
+    
+    .trust-badges { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    .badge { background: rgba(255,255,255,0.03); border: 1px solid var(--purple-border); padding: 8px 16px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; display: flex; align-items: center; gap: 8px; backdrop-filter: blur(5px); }
+    .badge::before { content: '✓'; color: var(--gold); font-weight: 800; }
+
+    /* --- Sticky Pill Navigation --- */
+    .pill-nav { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin: 30px auto 60px; max-width: 900px; padding: 0 5%; position: sticky; top: 90px; z-index: 900; }
+    .pill-nav a { background: var(--bg-card); border: 1px solid var(--purple-border); color: var(--text-main); text-decoration: none; padding: 12px 24px; border-radius: 50px; font-weight: 700; font-size: 0.95rem; backdrop-filter: blur(10px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 10px 25px rgba(0,0,0,0.5); display: flex; align-items: center; gap: 8px; }
+    .pill-nav a:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-3px); box-shadow: 0 10px 25px var(--gold-glow); }
+
+    /* --- Showroom Policy Cards (Widget / Fleet Card Aesthetic) --- */
+    .content-container { max-width: 1050px; margin: auto; padding: 0 5%; }
+    
+    .policy-widget { 
+      background: var(--bg-surface); 
+      border: 1px solid var(--purple-border); 
+      border-radius: 24px; 
+      padding: 45px; 
+      margin-bottom: 50px; 
+      box-shadow: 0 30px 60px rgba(0,0,0,0.6); 
+      backdrop-filter: blur(14px); 
+      scroll-margin-top: 160px; 
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    .policy-widget:hover { border-color: var(--gold); transform: translateY(-5px); box-shadow: 0 30px 60px rgba(0,0,0,0.8), 0 0 30px rgba(243, 196, 0, 0.15); }
+
+    /* Top Tier Header inside Card */
+    .widget-top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; padding-bottom: 20px; border-bottom: 1px solid var(--purple-border); flex-wrap: wrap; gap: 15px; }
+    .policy-tier { font-size: 0.8rem; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: 1.5px; }
+    .status-dot { background: #22c55e; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 4px 12px; border-radius: 20px; display: flex; align-items: center; gap: 6px; }
+    .status-dot::before { content: ''; width: 6px; height: 6px; background: #fff; border-radius: 50%; }
+
+    .policy-widget h2 { font-size: 2.2rem; font-weight: 800; margin-bottom: 20px; letter-spacing: -0.5px; }
+    .policy-widget h3 { font-size: 1.3rem; font-weight: 700; color: var(--gold); margin: 30px 0 15px; display: flex; align-items: center; gap: 10px; }
+    .policy-widget p { color: var(--text-muted); font-size: 1.02rem; margin-bottom: 18px; }
+
+    /* Custom Checkmark Lists */
+    .styled-list { list-style: none; margin: 20px 0; display: grid; gap: 14px; }
+    .styled-list li { background: rgba(0,0,0,0.3); border: 1px solid var(--purple-border); padding: 16px 20px; border-radius: 14px; color: var(--text-main); font-size: 0.98rem; font-weight: 500; display: flex; align-items: flex-start; gap: 12px; transition: border-color 0.2s; }
+    .styled-list li:hover { border-color: rgba(243, 196, 0, 0.4); background: rgba(0,0,0,0.5); }
+    .styled-list li span { color: var(--gold); font-weight: 800; font-size: 1.1rem; line-height: 1; }
+
+    /* Highlight Price-Box Style Containers */
+    .clause-box { background: rgba(0,0,0,0.5); border: 1px dashed rgba(243, 196, 0, 0.4); border-radius: 16px; padding: 24px; margin: 25px 0; }
+    .clause-title { font-size: 0.85rem; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+    .clause-text { font-size: 0.95rem; color: var(--text-main); font-weight: 500; margin: 0; }
+
+    /* Animated Highlight Box for Refunds */
+    .route-custom-highlight { background: linear-gradient(135deg, var(--bg-card) 0%, #3B1B60 100%); border: 1px solid var(--gold); border-radius: 16px; padding: 24px; box-shadow: 0 4px 20px rgba(243, 196, 0, 0.2); animation: pulse-border 2.5s infinite; margin: 25px 0; }
+    @keyframes pulse-border { 0% { box-shadow: 0 0 0 0 rgba(243, 196, 0, 0.4); } 70% { box-shadow: 0 0 0 12px rgba(243, 196, 0, 0); } 100% { box-shadow: 0 0 0 0 rgba(243, 196, 0, 0); } }
+
+    /* --- Driver Onboarding Banner (Exact Match) --- */
+    .driver-banner { background: linear-gradient(135deg, var(--bg-surface) 0%, #250B47 100%); border: 1px solid rgba(243, 196, 0, 0.3); border-radius: 24px; padding: 50px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 30px; margin: 60px auto; max-width: 1050px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); }
+    .driver-text h3 { font-size: 2rem; font-weight: 800; margin-bottom: 10px; }
+    .driver-text p { color: var(--text-muted); font-size: 1.05rem; max-width: 600px; }
+
+    /* --- Footer --- */
+    .footer { background: var(--bg-surface); border-top: 1px solid var(--purple-border); padding: 60px 5% 30px; margin-top: 50px; backdrop-filter: blur(10px); }
+    .footer-grid { max-width: 1350px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; }
+    .footer-col h4 { color: var(--text-main); margin-bottom: 20px; font-size: 1.1rem; font-weight: 800; }
+    .footer-col a, .footer-col p { display: block; color: var(--text-muted); text-decoration: none; margin-bottom: 12px; font-size: 0.95rem; transition: 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-about { color: var(--text-muted); font-size: 0.95rem; }
+    .footer-bottom { max-width: 1350px; margin: 40px auto 0; padding-top: 20px; border-top: 1px solid var(--purple-border); text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+    /* --- Sticky Mobile Action Bar --- */
+    .mobile-action-bar { display: none; position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(20, 8, 38, 0.95); backdrop-filter: blur(10px); border-top: 1px solid var(--purple-border); padding: 12px 5%; z-index: 9999; box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.8); gap: 12px; }
+    .mobile-btn { flex: 1; padding: 14px; border-radius: 12px; font-weight: 700; font-size: 0.95rem; text-align: center; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; transition: transform 0.1s; }
+    .mobile-btn:active { transform: scale(0.98); }
+    .mobile-btn-call { background: var(--bg-card); color: var(--text-main); border: 1px solid var(--purple-border); }
+    .mobile-btn-wa { background: var(--gold); color: var(--bg-dark); border: none; box-shadow: 0 0 15px var(--gold-glow); }
+
+    /* --- Responsive Rules --- */
+    @media (max-width: 900px) {
+      body { padding-bottom: 85px !important; }
+      .hero-header h1 { font-size: 2.5rem; }
+      .policy-widget { padding: 28px; border-radius: 20px; }
+      .policy-widget h2 { font-size: 1.7rem; }
+      .driver-banner { padding: 30px; text-align: center; justify-content: center; }
+      .nav-actions { display: none; }
+      .mobile-action-bar { display: flex; }
+      .pill-nav { top: 75px; gap: 8px; }
+      .pill-nav a { padding: 10px 18px; font-size: 0.85rem; }
+      .footer { padding: 40px 6% 100px !important; }
+      .footer-grid { grid-template-columns: 1fr !important; gap: 25px !important; }
+      .footer-col { grid-column: span 1 !important; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <div class="brand-icon">T</div>
+      TRASKER <span>CABS</span>
+    </a>
+    <div class="nav-actions">
+      <a href="tel:+918218602998" class="contact-number">📞 +91 8218602998</a>
+      <a href="index.html" class="btn-outline">⚡ Express Estimator</a>
+      <a href="https://wa.me/918218602998?text=Hi%20Trasker%20Cabs%2C%20I%20have%20a%20query%20regarding%20your%20policies." target="_blank" class="btn-gold">WhatsApp Helpdesk</a>
+    </div>
+  </nav>
+
+  <!-- Showroom Header -->
+  <header class="hero-header">
+    <h1>Our Legal <span>Policies.</span></h1>
+    <p>We believe in 100% transparency. Review our security commitments, highway tariff rules, and verified driver refund terms below.</p>
+    
+    <div class="trust-badges">
+      <div class="badge">Zero Hidden Charges</div>
+      <div class="badge">24x7 Support Helpdesk</div>
+      <div class="badge">Instant Refund Processing</div>
+    </div>
+  </header>
+
+  <!-- Sticky Pill Navigation -->
+  <div class="pill-nav">
+    <a href="#privacy">🛡️ Privacy Policy</a>
+    <a href="#terms">📄 Terms & Conditions</a>
+    <a href="#refunds">🔄 Refund & Cancellations</a>
+  </div>
+
+  <!-- Content Showcase -->
+  <main class="content-container">
+
+    <!-- 1. PRIVACY POLICY WIDGET -->
+    <section id="privacy" class="policy-widget">
+      <div class="widget-top-bar">
+        <div class="policy-tier">Data Protection Guidelines</div>
+      </div>
+
+      <h2>🛡️ Privacy Policy</h2>
+      <p>At Trasker Cabs ("we", "our", "us"), protecting your personal data is just as important as ensuring your safety on the highway. This policy details how your information is handled when using our outstation booking platform and customer support channels.</p>
+
+      <h3>1. Information We Collect</h3>
+      <p>To dispatch verified vehicles across our intercity corridors, we collect only essential operational data:</p>
+      <ul class="styled-list">
+        <li><span>✓</span> <div><b>Personal Identifiers:</b> Full name, primary mobile number, WhatsApp contact number, and for billing.</div></li>
+        <li><span>✓</span> <div><b>Trip Architecture:</b> Pickup/drop-off coordinates, travel timestamps, preferred vehicle tier (Sedan, SUV, or Prime Executive), and luggage volume.</div></li>
+        <li><span>✓</span> <div><b>Payment Verification:</b> UPI transaction references and payment confirmation receipts. We never store credit/debit card numbers or banking PINs on our servers.</div></li>
+      </ul>
+
+      <h3>2. How Your Information Is Utilized</h3>
+      <ul class="styled-list">
+        <li><span>✓</span> <div><b>Live Highway Dispatch:</b> To assign verified drivers and push real-time cab credentials (driver name, phone number, vehicle model, and license plate) directly to your WhatsApp.</div></li>
+        <li><span>✓</span> <div><b>24x7 Helpdesk Assistance:</b> To manage route quotations, itinerary modifications, and immediate customer support.</div></li>
+        <li><span>✓</span> <div><b>Corridor Safety:</b> To actively monitor intercity transit and ensure end-to-end passenger security across North India.</div></li>
+      </ul>
+
+      <div class="clause-box">
+        <div class="clause-title">🔒 Strict No-Spam & No-Sell Guarantee</div>
+        <p class="clause-text">We never sell, rent, or trade your contact data to third-party advertisers. Your pickup details are shared strictly on a need-to-know basis with your assigned commercial driver solely for trip coordination.</p>
+      </div>
+    </section>
+
+    <!-- 2. TERMS & CONDITIONS WIDGET -->
+    <section id="terms" class="policy-widget">
+      <div class="widget-top-bar">
+        <div class="policy-tier">Service Agreement</div>
+        <div class="status-dot">Active Tariff Rules</div>
+      </div>
+
+      <h2>📄 Terms & Conditions</h2>
+      <p>By accessing the Trasker Cabs website, utilizing our Express Fare Estimator, or confirming a ride via WhatsApp or phone, you agree to comply with our commercial operating guidelines.</p>
+
+      <h3>1. Transparent Fare Inclusions & Exclusions</h3>
+      <p>Our highway pricing structure is engineered for zero surprises:</p>
+      <ul class="styled-list">
+        <li><span>✓</span> <div><b>Included in Quote:</b> Commercial vehicle hire, driver daily allowance, state border toll taxes, and estimated route fuel.</div></li>
+        <li><span>✓</span> <div><b>Excluded from Quote:</b> Parking charges, airport entry charges, or monument/sightseeing entry fees incurred during the journey are billed separately at actuals.</div></li>
+        <li><span>✓</span> <div><b>Extra Mileage & Route Deviations:</b> If you request stops outside the booked itinerary, extend the drop-off destination, or exceed the standard corridor allowance, extra kilometers will be billed at the fixed per-kilometer rate applicable to your chosen vehicle category.</div></li>
+      </ul>
+
+      <h3>2. Digital Payments & Booking Confirmation</h3>
+      <ul class="styled-list">
+        <li><span>✓</span> <div><b>Digital Payments Preferred:</b> To ensure safety and transparent accounting for both passengers and drivers, We accept online payments. Cash payments may be accepted only where explicitly agreed.</div></li>
+        <li><span>✓</span> <div><b>Dispatch Advance:</b> A nominal booking advance is required to lock in your vehicle tier and dispatch a driver to your doorstep without surge pricing.</div></li>
+      </ul>
+
+      <div class="clause-box">
+        <div class="clause-title">⚠️ Passenger Conduct & Cleanliness</div>
+        <p class="clause-text">Carrying illegal contraband or hazardous goods is strictly forbidden under Indian motor vehicle laws. Intentional cabin damage, excessive soiling, or smoking inside an AC cab will result in a mandatory sanitization fee added to the final invoice.</p>
+      </div>
+    </section>
+
+    <!-- 3. REFUND & CANCELLATIONS WIDGET -->
+    <section id="refunds" class="policy-widget">
+      <div class="widget-top-bar">
+        <div class="policy-tier">Cancellation Protocol</div>
+        <div class="status-dot">Verified Payouts</div>
+      </div>
+
+      <h2>🔄 Refund & Cancellations</h2>
+      <p>We understand that travel itineraries can change. Our cancellation policy balances flexibility for our riders with fair compensation for highway drivers who reserve their vehicles and travel to pickup coordinates.</p>
+
+      <h3>1. Standard Cancellation Slabs</h3>
+      <ul class="styled-list">
+        <li><span>⚡</span> <div><b>Free Cancellation (8+ Hours Prior):</b> Bookings cancelled at least 8 hours before scheduled pickup are eligible for an <b>instant 100% full refund</b> of any advance deposit paid, with zero cancellation charges.</div></li>
+        <li><span>⚡</span> <div><b>Moderate Cancellation (4 to 8 Hours Prior):</b> Bookings cancelled between 4 and 8 hours prior to pickup incur a nominal cancellation fee of <b>20% of the advance deposit</b> (or ₹500, whichever is lower) to cover dispatch administrative costs.</div></li>
+        <li><span>⚡</span> <div><b>Late Cancellation (Less than 4 Hours Prior):</b> Cancellations made within 4 hours of pickup, or cases where the vehicle has already arrived at the pickup coordinate, result in the <b>forfeiture of the booking advance</b> to compensate the driver for fuel and wasted transit time.</div></li>
+      </ul>
+
+      <div class="route-custom-highlight">
+        <div class="clause-title" style="color: var(--text-main); font-size: 1rem;">✨ How To Request Cancellation</div>
+        <p class="clause-text" style="color: var(--text-muted); margin-top: 6px;">
+          Send your Booking Name, Route, and Scheduled Date to our WhatsApp Helpdesk at <b>+91 8218602998</b> with the message <b style="color: var(--gold);">"CANCEL RIDE"</b>. Approved refunds are credited back to your original payment source (UPI ID or Bank Account) within <b>24 to 48 hours</b>!
+        </p>
+      </div>
+
+      <h3>2. Operator Initiated Cancellations</h3>
+      <p>In rare events such as severe natural calamities (landslides or flash floods on hill routes like Mussoorie/Dehradun), unexpected highway blockades, or mechanical breakdowns, Trasker Cabs reserves the right to cancel a ride. In such cases, we will immediately deploy a replacement vehicle or issue an <b>unconditional 100% full refund</b>.</p>
+    </section>
+
+    <!-- Driver Onboarding Banner (Exact Match to Mother Site) -->
+    <div class="driver-banner">
+      <div class="driver-text">
+        <h3>Own a Commercial Taxi? Partner With Us.</h3>
+        <p>Join the Trasker Cabs network. Get consistent intercity highway bookings, transparent vendor payouts, and flexible driver onboarding.</p>
+      </div>
+      <a href="https://forms.gle/oJGsSMvQZQ8EfwLWA" target="_blank" class="btn-gold" style="padding: 16px 32px; font-size: 1.05rem; text-decoration: none; display: inline-block;">
+        🚗 Attach Your Taxi Now
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer (Exact Match to Mother Site) -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col" style="grid-column: span 2;">
+        <h4>About Trasker Cabs</h4>
+        <p class="footer-about">
+          We provide premier intercity taxi services across Delhi, Dehradun, Mussoorie, Noida, Ghaziabad, Haridwar, Rishikesh, Jaipur and surrounding cities. 
+          <br><br>
+          Trasker Cabs provides reliable taxi services from Delhi to Dehradun, Delhi to Mussoorie, Noida to Dehradun, Ghaziabad to Dehradun, Haridwar, Rishikesh, Jaipur, Kanatal, and many other destinations across North India.
+        </p>
+      </div>
+     
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Express Fare Estimator</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms & Conditions</a>
+        <a href="#refunds">Refund & Cancellations</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Phone: +91 8218602998</p>
+        <p>WhatsApp: +91 8218602998</p>
+        <p>Email: traskercabs@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; © 2026 Trasker Cabs. All Rights Reserved.
+    </div>
+  </footer> 
+
+  <!-- Sticky Mobile Action Bar (Exact Match to Mother Site) -->
+  <div class="mobile-action-bar">
+    <a href="tel:+918218602998" class="mobile-btn mobile-btn-call">
+      📞 Call Now
+    </a>
+    <a href="https://wa.me/918218602998?text=Hi%20Trasker%20Cabs%2C%20I%20have%20a%20query%20regarding%20your%20policies." target="_blank" class="mobile-btn mobile-btn-wa">
+      💬 WhatsApp
+    </a>
+  </div>
+
+</body>
+</html>
